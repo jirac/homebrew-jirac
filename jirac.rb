@@ -5,6 +5,7 @@ class Jirac < Formula
   head "https://github.com/jirac/jirac.git"
 
   depends_on "xmlstarlet"
+  depends_on "git"
 
   def install
     # replace jirac_dir with static value, if not every script would be available in path
