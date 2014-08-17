@@ -16,5 +16,5 @@ class Jirac < Formula
     # Make only jirac available
     bin.install_symlink prefix/"jirac"
   end
-  
+
 end
