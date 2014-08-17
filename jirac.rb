@@ -5,7 +5,6 @@ class Jirac < Formula
   head "https://github.com/jirac/jirac.git"
 
   depends_on "xmlstarlet"
-  depends_on "git"
   depends_on "coreutils"
 
   def install
